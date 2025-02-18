@@ -1,0 +1,50 @@
+.container {
+    padding: 16px;
+    background-color: #f3f4f6;
+    min-height: 100vh;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .record-button {
+    margin-top: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .start {
+    background-color: green;
+  }
+  
+  .stop {
+    background-color: red;
+  }
+  
+  .message-container {
+    margin-top: 16px;
+  }
+  
+  .message {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 8px;
+  }
+  
+  .emoji {
+    font-size: 24px;
+    margin-right: 8px;
+  }
+  
+  .text {
+    color: #333;
+  }
+  
